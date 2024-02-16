@@ -1,0 +1,17 @@
+.footer{
+    font-size: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    background:#7AE44D;  
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.styles.footer{
+    background-color: #7AE44D;
+}
+.footer p{
+background-color: #7AE44D;
+}

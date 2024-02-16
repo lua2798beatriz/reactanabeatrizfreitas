@@ -1,0 +1,17 @@
+.botao {
+    background-color:#0097B2;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    border: none; 
+    cursor: pointer;
+    color:#F9C13F;
+    margin: 25px 0;
+    
+}
+
+/* mudar a cor da fonte quando o botao estiver com o mouse por cima */
+.botao:hover {
+    color: #7AE44D;
+}

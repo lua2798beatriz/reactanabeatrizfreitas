@@ -1,0 +1,140 @@
+.header {
+    text-align: center;
+    color: var(--text-color);
+    background: var(--background-section);
+  }
+  
+  .header h1 {
+    padding-top: 0rem;
+    font-size: 2rem;
+    align-items: center;
+  }
+  
+.card {
+    margin: 0,3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+.imagemCard {
+    width: 300px;
+    align-items:flex-end;
+    display: flex;
+  }
+  
+  .containerSobre {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; 
+  }
+  
+
+   .profissao {
+    font-size: 25px;
+    color: var(--text-sobre);
+    font-weight: 600;
+    height: 40px;
+    background-color: var(--primary-color);
+  }
+  
+.sobreMim{
+    font-size: 20px;
+    color: var(--text-color);
+    height: 40px;
+    background-color: var(--primary-color);
+    display: flex;
+  }
+  
+.subtitulo {
+    padding: 1rem;
+    font-size: 1.5rem;
+    height: 700px;
+    color: var(--text-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var( --background-section);
+  }
+  
+  .subtitulo p {
+    font-size: 25px;
+    color: var(--text-sobre);
+    font-weight: 600;
+    height: 40px;
+    margin-top: 2%;
+  }
+  
+  .subtitulo img {
+    margin: 2rem;
+    width: 50vw;
+    height: 60vh;
+  }
+  
+  .containerSobre iframe {
+    width: 560px;
+    height: 315px; 
+  }
+  
+  .tituloSobre {
+    width: 40%;
+    font-size: 2rem;
+    font-weight: ExtraLight 200;
+    color: var(--text-sobre);
+    background-color: var(--primary-color);
+  }
+  
+  .containerSobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .containerVideo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--primary-color);
+    padding: 4rem;
+  }
+  
+  .textVideo {
+    margin-right: 3rem;
+  }
+  
+  @media(max-width: 765px) {
+    .subtitulo {
+      flex-direction: column; 
+    }
+  
+    .header h1 {
+     padding: 2rem;
+      font-size: 2rem;
+    }
+  
+    .subtitulo img {
+      margin: 2rem;
+      width: 80vw;
+      height: 25vh;
+    }
+  
+    .subtitulo p {
+      width: 80%;
+
+    }
+  
+    .tituloSobre {
+      width: 80%;
+      font-size: 1.5rem;
+      padding-bottom: 2rem;
+      font-weight: ExtraLight 200;
+    }
+  
+    .containerSobre {
+      flex-direction: column;
+    }
+  }

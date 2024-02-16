@@ -1,0 +1,13 @@
+:root{
+--primary-color: #D74492;
+--text-color:#000506;
+--font-size-medium:18px;
+background-color: #FFF1E7;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lovelace', sans-serif;
+    background-color: #FFF1E7;
+}

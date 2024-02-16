@@ -1,0 +1,66 @@
+.header {
+    text-align: center;
+    color: var(--text-color);
+    background: var(--primary-color);
+    width: 100% ;
+    margin-bottom: 2rem;
+  }
+  .card {
+    margin: 0,5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+.imagemCard {
+    width: 300px;
+    align-items:flex-end;
+    display: flex;
+  }
+.header h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+    background-color: var(--primary-color);
+  }
+  
+.header img {
+    margin: 2rem;
+    width: 40vw;
+    height: 60vh;
+  }
+  .campo-texto{
+    margin: 24px 0;
+
+}
+
+.campo-texto label{
+    display:flex; /* quebrando a linha */
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.campo-texto input {
+    background-color: #0097B2;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0); /* sombreado */
+    width: 100%;  /* quem vai dizer o tamanho, é onde eu vou colocar ele */
+    border: none; /* tirando a borda */
+    border-radius: 5px; /* arredondando a borda */
+    font-size: 24px;
+    padding: 24px; /* espaçamento interno */
+    box-sizing: border-box; /* levando em consideração o tamano da tela, para não vazar */
+}
+.botao {
+    background-color:#0097B2;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    border: none; 
+    cursor: pointer;
+    color:#F9C13F;
+    margin: 25px 0;
+    
+}
+
+.botao:hover {
+    color: #7AE44D;
+}
